@@ -75,19 +75,19 @@
     display: flex;
 
     /* debug */
-    height: 350px;
+    min-height: 350px;
     border: 1px solid black;
 }
 .box-3 {
     width: 60%;
     background-color: #1d90ff;
-    height: 100%;
+    height: 350px;
 }
 
 .box-4 {
     width: 40%;
     background-color: #ffc1cb;
-    height: 100%;
+    height: 350px;
 }
 
 .backg-2 {
@@ -100,12 +100,26 @@
 
 .box-5 {
     width: 40%;
-    height: 100%;
+    height: 350px;
     background-color: #ffc1cb;
 }
 
 .box-6 {
     width: 60%;
-    height: 100%;
+    height: 350px;
     background-color: #1d90ff;
+}
+
+.backg-3{
+    background-color: #d3d3d3;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-7 {
+    width: 100%;
+    height: 550px;
+    background-color: #238b21;
 }
