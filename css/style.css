@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-.header{
+.section{
     background-color: #add8e6;
     height: 50px;
     display: flex;
@@ -40,4 +40,22 @@
 .login {
     text-align: center;
     width: 10%;
+}
+
+.box-2{
+    background-color: #00008b;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2 {
+    width: 60%;
+    max-width: 1100px;
+    margin: 0 auto;
+
+    /* debug */
+    background-color: #ee81ee;
+    height: 250px;
 }
